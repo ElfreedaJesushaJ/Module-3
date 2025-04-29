@@ -12,10 +12,8 @@ To write a Python program that calculates the **sum of all elements** in a list.
 
 ```
 items=[11,12,13,15]
-sum_numbers=0
-for x in items:
-    sum_numbers+=x
-print(sum_numbers)
+sum=sum(items)
+print(sum)
 
 ```
 
