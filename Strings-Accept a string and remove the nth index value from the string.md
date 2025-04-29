@@ -16,10 +16,17 @@ To write a Python program that accepts a string and removes the character at a s
 
 ## 💻 Program
 ```
-def remove(str):
-    i=int(input())
-    res=str[:i]+str[i+1:]
-    print(res)
+def remove(input_string):
+    n = int(input())
+    a = ""
+    for i in range(len(input_string)):
+        if i != n:
+            a += input_string[i]
+    return a
+input_str = input()
+result = remove(input_str)
+print(result)
+
 ```
 
 ## Output
