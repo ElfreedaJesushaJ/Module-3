@@ -17,11 +17,11 @@ To write a Python program that filters out and returns all elements from a list 
 ```
 import re
 items = ['goal', 'new', 'user', 'sit', 'eat', 'dinner']
-result=[]
-for item in items:
-    if re.search(r'e',item) is None:
-        result.append(item)
-print(result)
+l1=[]
+for i in items:
+    if re.search(r'e',i) is None:
+        l1.append(i)
+print(l1)
 
 
 ```
